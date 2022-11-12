@@ -1,0 +1,28 @@
+package task1;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) { 
+        int[] arg = remove(new int[]{1,2,1,2,4,3,4,4,3,5,6,6});
+        for(int i: arg) System.out.println(i);
+
+    }
+
+    public static int[] remove(int[] list) {
+        int out_arr[] = new int[list.length];
+        int curr = 0;
+
+        for (int i = 0; i < list.length; i++) {
+            if(i+1 < list.length) {
+                if(list[i] == list[i+1]) {
+                   out_arr[curr] = inp[i];
+                }else {
+                    out_arr[curr+1] = inp[i+1];
+                   curr++;
+                }
+            }
+        }
+        return out_arr;
+    }
+}

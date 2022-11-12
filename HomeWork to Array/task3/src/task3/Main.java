@@ -1,0 +1,24 @@
+package task3;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> numArr = new ArrayList<Integer>();
+		Scanner sc = new Scanner(System.in);
+		int sum=0;
+		for(int i = 0; i < 10; i++) {
+			System.out.print("Input num - ");
+			int num = sc.nextInt();
+			numArr.add(num);
+		}
+		for(int i = 0; i < numArr.size(); i++) {
+			if(numArr.get(i)<0) {
+				sum+= numArr.get(i);
+			}
+		}
+		System.out.println("Result - " + sum);
+	}
+}

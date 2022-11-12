@@ -1,0 +1,17 @@
+package task4;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter num: ");
+		int x = sc.nextInt();
+		int res = 0;
+		for(int i = 1; i<=x; i++) {
+			res += i;
+		}
+		System.out.printf("Result is: %s", res);
+		
+	}
+
+}

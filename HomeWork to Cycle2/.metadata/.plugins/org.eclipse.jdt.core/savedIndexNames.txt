@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\shain\OneDrive\Рабочий стол\Закази\Руденко\Java\HomeWork to Cycle2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+707312181.index
+3024891798.index
+1563396771.index
+3290880793.index

@@ -1,0 +1,17 @@
+package task12;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter a: ");
+		double a = scan.nextDouble();
+		System.out.print("Enter n: ");
+		int n = scan.nextInt();
+		
+		System.out.printf("Result: %s ",Math.pow(a, n));
+		
+	}
+
+}

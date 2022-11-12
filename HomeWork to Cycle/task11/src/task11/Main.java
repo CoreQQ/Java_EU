@@ -1,0 +1,19 @@
+package task11;
+
+public class Main {
+
+	public static void main(String[] args) {
+		for(int list = 100; list <1000; list++) {
+			for(int i = 1; i <10; i++) {
+				for(int j = 0; j <10; j++) {
+					for(int s = 0; s <10; s++) {
+						if((i*i*i) + (j*j*j) + (s*s*s) == list) {
+							System.out.println(i + "" + j + "" + s);
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
